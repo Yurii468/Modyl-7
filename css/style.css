@@ -264,6 +264,9 @@ img {
 .contact_form_input:focus {
   outline: none;
 }
+.form_message:focus {
+  outline: none;
+}
 .contact_form_input:required:focus:valid {
   border-color: green;
 }
@@ -291,14 +294,10 @@ img {
 }
 .form_message::placeholder {
   text-transform: uppercase;
-  color:#bbbbbb;
+  color: #bbbbbb;
 }
 .your_message {
   flex-basis: 100%;
-}
-
-
-  width: 456px;
 }
 .form_right {
   width: 456px;
