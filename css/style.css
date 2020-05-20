@@ -52,12 +52,19 @@ html {
 *::after {
   box-sizing: inherit;
 }
+body {
+  margin: 0;
+}
 img {
   display: block;
   width: 100%;
   height: auto;
   margin: 0 auto;
   background-repeat: no-repeat;
+}
+ol,
+ul {
+  list-style: none;
 }
 .visually-hidden {
   position: absolute;
@@ -96,6 +103,7 @@ img {
   text-decoration: none;
   color: #222222;
   font-family: 'Monserat';
+  font-weight: 400;
 }
 .menu a:hover,
 .menu a:focus {
@@ -129,6 +137,7 @@ img {
   margin: 0;
   display: flex;
   justify-content: space-between;
+  padding-bottom: 124px;
 }
 
 .commerce {
@@ -136,7 +145,7 @@ img {
   width: 304px;
   list-style: none;
 }
-.Description {
+.description {
   font-family: 'Roboto Slab';
   font-size: 14px;
   line-height: 16px;
@@ -164,7 +173,7 @@ img {
   text-align: center;
   color: #222222;
 }
-.tittle-1::before {
+.commerce-1::before {
   margin: 0 auto;
   margin-top: 80px;
   margin-bottom: 50px;
@@ -180,7 +189,7 @@ img {
 
   background-image: url(../img/Icon-1.png);
 }
-.tittle-2::before {
+.commerce-2::before {
   margin: 0 auto;
   margin-top: 80px;
   margin-bottom: 50px;
@@ -196,7 +205,7 @@ img {
 
   background-image: url(../img/Icon-2.png);
 }
-.tittle-3::before {
+.commerce-3::before {
   margin: 0 auto;
   margin-top: 80px;
   margin-bottom: 50px;
@@ -220,7 +229,7 @@ img {
   background-color: #222222;
   margin: 0 auto;
 }
-.Title-Contact-Us {
+.title-contact-us {
   margin: 0 auto;
   padding-top: 110px;
   padding-bottom: 28px;
@@ -241,12 +250,10 @@ img {
 .form {
   display: flex;
   justify-content: space-between;
-  margin: 0 auto;
-  width: 940px;
 }
 
 .contact_form_input {
-  color: #bbbbbb;
+  color: black;
   font-family: 'Montserrat';
   font-weight: bold;
   margin-bottom: 28px;
@@ -261,6 +268,7 @@ img {
   text-transform: uppercase;
   color: #bbbbbb;
 }
+
 .contact_form_input:focus {
   outline: none;
 }
@@ -274,7 +282,7 @@ img {
   border-color: red;
 }
 .form_message {
-  color: #bbbbbb;
+  color: black;
   font-family: 'Montserrat';
   font-weight: bold;
   margin-bottom: 28px;
@@ -314,7 +322,6 @@ img {
   background-color: rgb(254, 209, 54);
 }
 .contact_form_button_wraper {
-  margin: 0 auto;
-  margin-left: 350px;
+  text-align: center;
   padding-bottom: 116px;
 }
